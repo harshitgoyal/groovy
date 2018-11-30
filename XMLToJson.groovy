@@ -3,6 +3,7 @@ import org.apache.commons.io.IOUtils
 import java.nio.charset.StandardCharsets
 import groovy.json.*
  
+ 
 def flowFile = session.get()
 if(!flowFile) return
  
